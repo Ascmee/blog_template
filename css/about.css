@@ -1,0 +1,463 @@
+.content-content-p-class {
+  word-wrap: normal;
+  line-height: 1.8em;
+}
+
+#content-page-id {
+  width: 1000px;
+  min-height: 600px;
+  margin-left: 50%;
+  margin-top: 60px;
+  padding-bottom: 60px;
+  transform: translate(-50%, 0);
+}
+
+#content-title-id {
+  font-size: 40px;
+  font-weight: bold;
+  width: fit-content;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+}
+
+#content-title-p-id {
+  margin: 0;
+}
+
+#content-time-id {
+  width: fit-content;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+}
+
+#content-time-id > p {
+  font-size: 16px;
+}
+
+#content-content-id {
+  font-size: 22px;
+  width: 800px;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+}
+
+#bottom-information-id {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+:root {
+  --background-color: #282c34;
+}
+
+body {
+  font-size: 22px;
+}
+
+code {
+  font-size: 18px;
+}
+
+p {
+  font-size: 22px;
+}
+
+a {
+  font-size: 22px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 34px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 25px;
+}
+
+h5 {
+  font-size: 22px;
+}
+
+h6 {
+  font-size: 22px;
+}
+
+h1 > a {
+  font-size: 40px;
+}
+
+h2 > a {
+  font-size: 34px;
+}
+
+h3 > a {
+  font-size: 28px;
+}
+
+h4 > a {
+  font-size: 25px;
+}
+
+h5 > a {
+  font-size: 22px;
+}
+
+h6 > a {
+  font-size: 22px;
+}
+
+mark {
+  font-size: 22px;
+}
+
+ul {
+  font-size: 22px;
+}
+
+ol {
+  font-size: 22px;
+}
+
+blockquote {
+  font-size: 22px;
+}
+
+.content-inline-code-class {
+  font-size: 22px;
+}
+
+.content-table-class > table th {
+  font-size: 22px;
+}
+
+.content-table-class > table td {
+  font-size: 22px;
+}
+
+.toc > li > a {
+  font-size: 22px;
+}
+
+#content-page-content-id {
+  font-size: 22px;
+}
+
+#content-page-content-id strong {
+  font-size: 22px;
+}
+
+#content-page-content-id em {
+  font-size: 22px;
+}
+
+#content-page-content-id del {
+  font-size: 22px;
+}
+
+#content-page-content-id u {
+  font-size: 22px;
+}
+
+/* ipad pro */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #content-page-id {
+    width: 700px;
+  }
+
+  #content-content-id {
+    font-size: 18px;
+    width: 660px;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  body {
+    font-size: 18px;
+  }
+
+  code {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  a {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  h5 {
+    font-size: 18px;
+  }
+
+  h6 {
+    font-size: 18px;
+  }
+
+  h1 > a {
+    font-size: 40px;
+  }
+
+  h2 > a {
+    font-size: 32px;
+  }
+
+  h3 > a {
+    font-size: 25px;
+  }
+
+  h4 > a {
+    font-size: 20px;
+  }
+
+  h5 > a {
+    font-size: 18px;
+  }
+
+  h6 > a {
+    font-size: 18px;
+  }
+
+  mark {
+    font-size: 18px;
+  }
+
+  ul {
+    font-size: 18px;
+  }
+
+  ol {
+    font-size: 18px;
+  }
+
+  blockquote {
+    font-size: 18px;
+  }
+
+  .content-inline-code-class {
+    font-size: 18px;
+  }
+
+  .content-table-class > table th {
+    font-size: 18px;
+  }
+
+  .content-table-class > table td {
+    font-size: 18px;
+  }
+
+  .toc > li > a {
+    font-size: 18px;
+  }
+
+  #content-page-content-id {
+    font-size: 18px;
+  }
+
+  #content-page-content-id strong {
+    font-size: 18px;
+  }
+
+  #content-page-content-id em {
+    font-size: 18px;
+  }
+
+  #content-page-content-id del {
+    font-size: 18px;
+  }
+
+  #content-page-content-id u {
+    font-size: 18px;
+  }
+}
+
+/* iphoneX */
+@media screen and (max-width: 768px) {
+  #content-id {
+    display: block;
+  }
+
+  #content-page-id {
+    width: 96%;
+    min-height: 0;
+    height: fit-content;
+    margin-top: 0;
+    padding-bottom: 0;
+  }
+
+  #content-page-title-id {
+    margin-top: 0;
+  }
+
+  #content-content-id {
+    width: 100%;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  #bottom-information-id {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  pre code.hljs:not(content-code-number)::-webkit-scrollbar {
+    height: 0px;
+  }
+
+  pre {
+    width: 25px;
+  }
+
+  body {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  a {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  h5 {
+    font-size: 18px;
+  }
+
+  h6 {
+    font-size: 18px;
+  }
+
+  h1 > a {
+    font-size: 40px;
+  }
+
+  h2 > a {
+    font-size: 32px;
+  }
+
+  h3 > a {
+    font-size: 25px;
+  }
+
+  h4 > a {
+    font-size: 20px;
+  }
+
+  h5 > a {
+    font-size: 18px;
+  }
+
+  h6 > a {
+    font-size: 18px;
+  }
+
+  mark {
+    font-size: 18px;
+  }
+
+  ul {
+    font-size: 18px;
+  }
+
+  ol {
+    font-size: 18px;
+  }
+
+  blockquote {
+    font-size: 18px;
+  }
+
+  .content-inline-code-class {
+    font-size: 18px;
+  }
+
+  .content-table-class > table th {
+    font-size: 18px;
+  }
+
+  .content-table-class > table td {
+    font-size: 18px;
+  }
+
+  .toc > li > a {
+    font-size: 18px;
+  }
+
+  #content-page-title-id {
+    font-size: 40px;
+  }
+
+  #content-time-id > p {
+    font-size: 12px;
+  }
+
+  #content-page-content-id {
+    font-size: 21px;
+  }
+
+  #content-page-content-id strong {
+    font-size: 18px;
+  }
+
+  #content-page-content-id em {
+    font-size: 18px;
+  }
+
+  #content-page-content-id del {
+    font-size: 18px;
+  }
+
+  #content-page-content-id u {
+    font-size: 18px;
+  }
+
+  #bottom-information-id {
+    font-size: 15px;
+  }
+
+  #bottom-a-information-id {
+    font-size: 15px;
+  }
+}

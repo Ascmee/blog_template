@@ -1,0 +1,349 @@
+#content-id {
+  font-weight: bold;
+  width: 1000px;
+  position: relative;
+  overflow: hidden;
+}
+
+#content-page-title-id {
+  height: fit-content;
+  margin-top: 60px;
+}
+
+#content-page-title-p-id {
+  font-size: 40px;
+  width: fit-content;
+  height: fit-content;
+  margin: 0;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+}
+
+#content-page-info-id {
+  font-weight: normal;
+  width: fit-content;
+  margin-top: 20px;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+}
+
+#content-div-1-id {
+  position: absolute;
+  width: max-content;
+  transform: translate(-50%, 0);
+}
+
+#content-div-2-id {
+  position: absolute;
+  width: max-content;
+  transform: translate(-50%, 0);
+}
+
+#content-div-3-id {
+  position: absolute;
+  width: max-content;
+  transform: translate(-50%, 0);
+}
+
+#content-div-4-id {
+  position: absolute;
+  width: max-content;
+  transform: translate(-50%, 0);
+}
+
+#content-div-5-id {
+  position: absolute;
+  width: max-content;
+  transform: translate(-50%, 0);
+}
+
+#content-div-6-id {
+  position: absolute;
+  width: max-content;
+  transform: translate(-50%, 0);
+}
+
+#content-div-7-id {
+  position: absolute;
+  width: max-content;
+  transform: translate(-50%, 0);
+}
+
+#content-div-8-id {
+  position: absolute;
+  width: max-content;
+  transform: translate(-50%, 0);
+}
+
+#content-div-9-id {
+  position: absolute;
+  width: max-content;
+  transform: translate(-50%, 0);
+}
+
+/* 4个 */
+#content-id:has(#content-div-4-id):not(#content-div-5-id) #content-div-1-id {
+  margin-top: 100px;
+  margin-left: 25%;
+}
+
+#content-id:has(#content-div-4-id):not(#content-div-5-id) #content-div-2-id {
+  margin-top: 100px;
+  margin-left: 75%;
+}
+
+#content-id:has(#content-div-4-id):not(#content-div-5-id) #content-div-3-id {
+  margin-top: 400px;
+  margin-left: 25%;
+}
+
+#content-id:has(#content-div-4-id):not(#content-div-5-id) #content-div-4-id {
+  margin-top: 400px;
+  margin-left: 75%;
+}
+/* 5个 */
+#content-id:has(#content-div-5-id):not(#content-div-6-id) #content-div-1-id {
+  margin-top: 50px;
+  margin-left: 30%;
+}
+
+#content-id:has(#content-div-5-id):not(#content-div-6-id) #content-div-2-id {
+  margin-top: 50px;
+  margin-left: 70%;
+}
+
+#content-id:has(#content-div-5-id):not(#content-div-6-id) #content-div-3-id {
+  margin-top: 450px;
+  margin-left: 30%;
+}
+
+#content-id:has(#content-div-5-id):not(#content-div-6-id) #content-div-4-id {
+  margin-top: 450px;
+  margin-left: 70%;
+}
+
+#content-id:has(#content-div-5-id):not(#content-div-6-id) #content-div-5-id {
+  margin-top: 240px;
+  margin-left: 50%;
+}
+/* 6个 */
+#content-id:has(#content-div-6-id):not(#content-div-7-id) #content-div-1-id {
+  margin-top: 60px;
+  margin-left: 50%;
+}
+
+#content-id:has(#content-div-6-id):not(#content-div-7-id) #content-div-2-id {
+  margin-top: 170px;
+  margin-left: 23%;
+}
+
+#content-id:has(#content-div-6-id):not(#content-div-7-id) #content-div-3-id {
+  margin-top: 170px;
+  margin-left: 78%;
+}
+
+#content-id:has(#content-div-6-id):not(#content-div-7-id) #content-div-4-id {
+  margin-top: 340px;
+  margin-left: 23%;
+}
+
+#content-id:has(#content-div-6-id):not(#content-div-7-id) #content-div-5-id {
+  margin-top: 340px;
+  margin-left: 78%;
+}
+
+#content-id:has(#content-div-6-id):not(#content-div-7-id) #content-div-6-id {
+  margin-top: 450px;
+  margin-left: 50%;
+}
+/* 7个 */
+#content-id:has(#content-div-7-id):not(#content-div-8-id) #content-div-1-id {
+  margin-top: 60px;
+  margin-left: 50%;
+}
+
+#content-id:has(#content-div-7-id):not(#content-div-8-id) #content-div-2-id {
+  margin-top: 170px;
+  margin-left: 23%;
+}
+
+#content-id:has(#content-div-7-id):not(#content-div-8-id) #content-div-3-id {
+  margin-top: 170px;
+  margin-left: 78%;
+}
+
+#content-id:has(#content-div-7-id):not(#content-div-8-id) #content-div-4-id {
+  margin-top: 340px;
+  margin-left: 23%;
+}
+
+#content-id:has(#content-div-7-id):not(#content-div-8-id) #content-div-5-id {
+  margin-top: 340px;
+  margin-left: 78%;
+}
+
+#content-id:has(#content-div-7-id):not(#content-div-8-id) #content-div-6-id {
+  margin-top: 450px;
+  margin-left: 50%;
+}
+
+#content-id:has(#content-div-7-id):not(#content-div-8-id) #content-div-7-id {
+  margin-top: 255px;
+  margin-left: 50%;
+}
+/* 8个 */
+#content-id:has(#content-div-8-id):not(#content-div-9-id) #content-div-1-id {
+  margin-top: 50px;
+  margin-left: 40%;
+}
+
+#content-id:has(#content-div-8-id):not(#content-div-9-id) #content-div-2-id {
+  margin-top: 50px;
+  margin-left: 60%;
+}
+
+#content-id:has(#content-div-8-id):not(#content-div-9-id) #content-div-3-id {
+  margin-top: 180px;
+  margin-left: 25%;
+}
+
+#content-id:has(#content-div-8-id):not(#content-div-9-id) #content-div-4-id {
+  margin-top: 180px;
+  margin-left: 75%;
+}
+
+#content-id:has(#content-div-8-id):not(#content-div-9-id) #content-div-5-id {
+  margin-top: 310px;
+  margin-left: 25%;
+}
+
+#content-id:has(#content-div-8-id):not(#content-div-9-id) #content-div-6-id {
+  margin-top: 310px;
+  margin-left: 75%;
+}
+
+#content-id:has(#content-div-8-id):not(#content-div-9-id) #content-div-7-id {
+  margin-top: 440px;
+  margin-left: 40%;
+}
+
+#content-id:has(#content-div-8-id):not(#content-div-9-id) #content-div-8-id {
+  margin-top: 440px;
+  margin-left: 60%;
+}
+/* 9个 */
+#content-id:has(#content-div-9-id):not(#content-div-10-id) #content-div-1-id {
+  margin-top: 50px;
+  margin-left: 40%;
+}
+
+#content-id:has(#content-div-9-id):not(#content-div-10-id) #content-div-2-id {
+  margin-top: 50px;
+  margin-left: 60%;
+}
+
+#content-id:has(#content-div-9-id):not(#content-div-10-id) #content-div-3-id {
+  margin-top: 180px;
+  margin-left: 25%;
+}
+
+#content-id:has(#content-div-9-id):not(#content-div-10-id) #content-div-4-id {
+  margin-top: 180px;
+  margin-left: 75%;
+}
+
+#content-id:has(#content-div-9-id):not(#content-div-10-id) #content-div-5-id {
+  margin-top: 310px;
+  margin-left: 25%;
+}
+
+#content-id:has(#content-div-9-id):not(#content-div-10-id) #content-div-6-id {
+  margin-top: 310px;
+  margin-left: 75%;
+}
+
+#content-id:has(#content-div-9-id):not(#content-div-10-id) #content-div-7-id {
+  margin-top: 440px;
+  margin-left: 40%;
+}
+
+#content-id:has(#content-div-9-id):not(#content-div-10-id) #content-div-8-id {
+  margin-top: 440px;
+  margin-left: 60%;
+}
+#content-id:has(#content-div-9-id):not(#content-div-10-id) #content-div-9-id {
+  margin-top: 245px;
+  margin-left: 50%;
+}
+
+/* iphoneX */
+@media screen and (max-width: 768px) {
+  #content-id {
+    max-width: 100%;
+    min-height: 520px;
+    height: fit-content;
+    margin-left: 50%;
+    margin-top: 80px;
+    transform: translate(-50%, 0);
+  }
+
+  #content-page-title-id {
+    margin-top: 0;
+  }
+
+  #content-page-title-id > p {
+    font-size: 40px;
+  }
+
+  #content-page-info-id {
+    font-size: 10px;
+  }
+
+  #bottom-information-id {
+    font-size: 15px;
+  }
+
+  /* 9个 */
+  #content-div-1-id {
+    margin-top: 100px !important;
+    margin-left: 35% !important;
+  }
+
+  #content-div-2-id {
+    margin-top: 100px !important;
+    margin-left: 65% !important;
+  }
+
+  #content-div-3-id {
+    margin-top: 170px !important;
+    margin-left: 35% !important;
+  }
+
+  #content-div-4-id {
+    margin-top: 170px !important;
+    margin-left: 65% !important;
+  }
+
+  #content-div-5-id {
+    margin-top: 50px !important;
+    margin-left: 20% !important;
+  }
+
+  #content-div-6-id {
+    margin-top: 220px !important;
+    margin-left: 80% !important;
+  }
+
+  #content-div-7-id {
+    margin-top: 220px !important;
+    margin-left: 20% !important;
+  }
+  #content-div-8-id {
+    margin-top: 50px !important;
+    margin-left: 80% !important;
+  }
+  #content-div-9-id {
+    margin-top: 270px !important;
+    margin-left: 50% !important;
+  }
+}

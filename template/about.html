@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link href="css/general.css" rel="stylesheet" type="text/css" />
+    <link href="css/page.css" rel="stylesheet" type="text/css" />
+    <link href="css/about.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body onload="body_init();">
+    <!--Top bar-->
+    <div id="topbar-id">
+      <!--topbar blogger-->
+      <div id="topbar-div-blogger-id" class="topbar-div-content-class">
+        <a id="topbar-div-a-blogger-id" href="index.html">Acc的博客</a>
+      </div>
+      <!--topbar content-->
+      <div id="topbar-div-id">
+        <!--topbar articles-->
+        <div id="topbar-div-articles-id" class="topbar-div-content-class">
+          <a href="articles.html">
+            <img
+              id="topbar-div-img-articles-id"
+              class="topbar-div-content-img-class"
+              src="image/articles.png"
+              onmouseover="set_topbar_articles_color(true,false)"
+              onmouseleave="set_topbar_articles_color(false,false)"
+          /></a>
+          <a
+            id="topbar-div-a-articles-id"
+            href="articles.html"
+            onmouseover="set_topbar_articles_color(true,false)"
+            onmouseleave="set_topbar_articles_color(false,false)"
+            >文章</a
+          >
+        </div>
+        <!--topbar classify-->
+        <div id="topbar-div-classify-id" class="topbar-div-content-class">
+          <a href="classification.html">
+            <img
+              id="topbar-div-img-classification-id"
+              class="topbar-div-content-img-class"
+              src="image/classification.png"
+              onmouseover="set_topbar_classification_color(true,false)"
+              onmouseleave="set_topbar_classification_color(false,false)"
+          /></a>
+          <a
+            id="topbar-div-a-classify-id"
+            href="classification.html"
+            onmouseover="set_topbar_classification_color(true,false)"
+            onmouseleave="set_topbar_classification_color(false,false)"
+            >分类</a
+          >
+        </div>
+        <!--topbar projects-->
+        <div id="topbar-div-projects-id" class="topbar-div-content-class">
+          <a href="projects.html">
+            <img
+              id="topbar-div-img-projects-id"
+              class="topbar-div-content-img-class"
+              src="image/projects.png"
+              onmouseover="set_topbar_projects_color(true,false)"
+              onmouseleave="set_topbar_projects_color(false,false)"
+          /></a>
+          <a
+            id="topbar-div-a-projects-id"
+            href="projects.html"
+            onmouseover="set_topbar_projects_color(true,false)"
+            onmouseleave="set_topbar_projects_color(false,false)"
+            >项目</a
+          >
+        </div>
+        <!--topbar about-->
+        <div id="topbar-div-about-id" class="topbar-div-content-class">
+          <a href="about.html"> <img id="topbar-div-img-about-id" class="topbar-div-content-img-class" src="image/about_over.png" /></a>
+          <a id="topbar-div-a-about-id" href="about.html" style="color: #2a6df4">关于</a>
+        </div>
+      </div>
+      <!--topbar more-->
+      <div id="topbar-div-more-id" class="topbar-div-content-class" onclick="div_more_click();">
+        <img
+          id="topbar-div-img-more-id"
+          src="image/more.png"
+          draggable="false"
+          onmouseover="this.src = 'image/more_over.png'"
+          onmouseleave="this.src = 'image/more.png'"
+        />
+      </div>
+    </div>
+    <!--topbar more show-->
+    <div id="topbar-div-outer-show-id"></div>
+    <!--content-->
+    <article id="content-id">
+      <div id="content-page-id">
+        <div id="content-title-id"><p id="content-page-title-id">About Me</p></div>
+        <div id="content-time-id">
+          <p>
+            <!-- content date start -->
+            <!-- content date end -->
+          </p>
+        </div>
+        <div id="content-content-id">
+          <!-- content start -->
+          <!-- content end -->
+        </div>
+      </div>
+    </article>
+    <div id="upto-top"><img src="image/top.png" alt="" /></div>
+    <!--script-->
+    <script src="js/info.js"></script>
+    <script src="js/general.js"></script>
+    <script src="js/about.js"></script>
+  </body>
+</html>

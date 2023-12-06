@@ -1,0 +1,12 @@
+#content-center-align-id {
+  position: absolute;
+  width: 100%;
+  height: fit-content;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#bottom-information-id {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}

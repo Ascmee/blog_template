@@ -1,0 +1,365 @@
+li {
+  list-style-type: disc;
+  margin-left: 25px;
+  color: #dedede;
+}
+
+a {
+  color: black;
+}
+
+.content-page-date-class {
+  font-size: 36px;
+  font-weight: bold;
+  width: fit-content;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.content-page-box-class {
+  width: 900px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-bottom-style: dotted;
+  border-bottom-color: #dedede;
+  cursor: pointer;
+}
+
+.content-page-box-class:hover {
+  border-bottom-color: #2a6df4;
+  transition: 0.5s;
+}
+
+.content-page-box-class:hover a {
+  color: #2a6df4;
+  transition: 0.5s;
+}
+
+.content-page-box-class:hover li {
+  color: #2a6df4;
+  transition: 0.5s;
+}
+
+.content-page-content-title-class {
+  font-size: 24px;
+  margin-left: 15px;
+  color: black;
+}
+
+.content-page-content-date-class {
+  margin-left: auto;
+  margin-right: 25px;
+}
+
+#search-id {
+  height: 40px;
+  width: min-content;
+  position: absolute;
+  right: 60px;
+  top: 0;
+  margin-left: 0;
+  display: flex;
+  border-style: solid;
+  border-color: #dedede;
+  border-radius: 23px;
+  overflow: hidden;
+}
+
+#search-input-id {
+  font-size: 20px;
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  top: 50%;
+  transform: translate(0, -50%);
+  border-style: none;
+  outline-style: none;
+  visibility: hidden;
+}
+
+#search-img-id {
+  width: 40px;
+}
+
+#search-id:hover input {
+  position: relative;
+  width: 240px;
+  height: 35px;
+  margin-left: 12px;
+  transition: 0.5s;
+  visibility: visible;
+}
+
+#search-img-id:hover {
+  content: url("../image/search_over.png");
+}
+
+#search-input-id:not(:placeholder-shown) {
+  position: relative;
+  width: 240px;
+  height: 25px;
+  margin-left: 12px;
+  transition: 0.5s;
+  visibility: visible;
+}
+
+#search-input-id:focus {
+  position: relative;
+  width: 240px;
+  height: 25px;
+  margin-left: 12px;
+  transition: 0.5s;
+  visibility: visible;
+}
+
+#content-page-id {
+  width: 1000px;
+  height: fit-content;
+  margin-top: 60px;
+  padding-bottom: 60px;
+}
+
+#content-page-content-id {
+  height: fit-content;
+}
+
+#content-page-title-id {
+  font-size: 40px;
+  font-weight: bold;
+  width: fit-content;
+  height: fit-content;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+}
+
+#content-page-title-p-id {
+  margin: 0;
+}
+
+#content-page-info-id {
+  width: fit-content;
+  margin-top: 20px;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+}
+
+#content-info-id {
+  font-size: 24px;
+  position: absolute;
+  width: fit-content;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* ipad pro */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #content-id {
+    max-width: 800px;
+    min-height: 900px;
+    margin-left: 50%;
+    margin-top: 130px;
+    transform: translate(-50%, 0);
+  }
+
+  #content-page-id {
+    width: 800px;
+    margin-left: -3px;
+  }
+
+  .content-page-box-class {
+    width: 710px;
+  }
+
+  #search-id {
+    height: 40px;
+    width: min-content;
+    position: absolute;
+    top: 0;
+    right: 60px;
+    margin-left: 0;
+    display: flex;
+    border-style: solid;
+    border-color: #dedede;
+    border-radius: 23px;
+    overflow: hidden;
+  }
+
+  #search-input-id {
+    font-size: 20px;
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    top: 50%;
+    transform: translate(0, -50%);
+    border-style: none;
+    outline-style: none;
+    visibility: hidden;
+  }
+
+  #search-img-id {
+    width: 40px;
+  }
+
+  #search-id:hover input {
+    position: relative;
+    width: 200px;
+    margin-left: 12px;
+    transition: 0.5s;
+    visibility: visible;
+  }
+
+  #search-img-id:hover {
+    content: url("../image/search_over.png");
+  }
+
+  #search-input-id:not(:placeholder-shown) {
+    position: relative;
+    width: 200px;
+    height: 25px;
+    margin-left: 12px;
+    transition: 0.5s;
+    visibility: visible;
+  }
+
+  #search-input-id:focus {
+    position: relative;
+    width: 200px;
+    height: 25px;
+    margin-left: 12px;
+    transition: 0.5s;
+    visibility: visible;
+  }
+}
+
+/* iphoneX */
+@media screen and (max-width: 768px) {
+  #content-id {
+    max-width: 100%;
+    height: fit-content;
+    min-height: 520px;
+    margin-left: 50%;
+    margin-top: 80px;
+    transform: translate(-50%, 0);
+  }
+
+  #content-page-id {
+    width: 100%;
+    margin-left: -3px;
+    margin-top: 0;
+  }
+
+  ul {
+    padding-inline-start: 15px;
+  }
+
+  .content-page-box-class {
+    width: 80%;
+  }
+
+  #search-id {
+    height: 30px;
+    width: min-content;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    margin-left: 0;
+    display: flex;
+    border-style: solid;
+    border-color: #dedede;
+    border-radius: 23px;
+    overflow: hidden;
+    z-index: 996;
+    background-color: white;
+  }
+
+  #search-input-id {
+    font-size: 18px;
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    top: 50%;
+    transform: translate(0, -50%);
+    border-style: none;
+    outline-style: none;
+    visibility: hidden;
+  }
+
+  #search-img-id {
+    width: 30px;
+  }
+
+  #search-id:hover input {
+    position: relative;
+    width: 200px;
+    margin-left: 12px;
+    transition: 0.5s;
+    visibility: visible;
+  }
+
+  #search-img-id:hover {
+    content: url("../image/search_over.png");
+  }
+
+  #search-input-id:not(:placeholder-shown) {
+    position: relative;
+    width: 200px;
+    height: 25px;
+    margin-left: 12px;
+    transition: 0.5s;
+    visibility: visible;
+  }
+
+  #search-input-id:focus {
+    position: relative;
+    width: 200px;
+    height: 25px;
+    margin-left: 12px;
+    transition: 0.5s;
+    visibility: visible;
+  }
+
+  #content-page-title-id {
+    font-size: 40px;
+  }
+
+  li {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #dedede;
+  }
+
+  .content-page-date-class {
+    font-size: 22px;
+    font-weight: bold;
+    width: fit-content;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .content-page-box-class {
+    width: 95%;
+    height: 40px;
+  }
+
+  .content-page-content-title-class {
+    font-size: 16px;
+    margin-left: 5px;
+    color: black;
+  }
+
+  .content-page-content-date-class {
+    margin-left: auto;
+    font-size: 10px;
+    margin-right: 10px;
+  }
+
+  #content-page-info-id {
+    font-size: 10px;
+  }
+
+  #bottom-information-id {
+    font-size: 15px;
+  }
+}
