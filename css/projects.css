@@ -63,6 +63,15 @@
   transform: translate(-50%, 0);
 }
 
+#content-info-id {
+  font-size: 24px;
+  position: absolute;
+  width: fit-content;
+  margin-top: 14%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /* ipad pro */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   #content-page-id {
