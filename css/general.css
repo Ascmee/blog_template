@@ -1,9 +1,4 @@
 /* font */
-@font-face {
-  font-family: "LXGW WenKai Mono";
-  src: url("fonts/LXGWWenKaiMono-Light.ttf");
-  font-weight: lighter;
-}
 
 @font-face {
   font-family: "LXGW WenKai Mono";
@@ -15,12 +10,6 @@
   font-family: "LXGW WenKai Mono";
   src: url("fonts/LXGWWenKaiMono-Bold.ttf");
   font-weight: bold;
-}
-
-@font-face {
-  font-family: "LXGW WenKai";
-  src: url("fonts/LXGWWenKai-Light.ttf");
-  font-weight: lighter;
 }
 
 @font-face {
