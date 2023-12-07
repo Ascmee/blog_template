@@ -31,3 +31,10 @@ for (var i = 0; i < project_name_arr.length; i++) {
   now_element.lastElementChild.textContent =
     project_name_arr[i].date.split("/")[0] + "/" + project_name_arr[i].date.split("/")[1] + "/" + project_name_arr[i].date.split("/")[2];
 }
+
+if (project_name_arr.length == 0) {
+  var no_info = document.createElement("div");
+  no_info.id = "content-info-id";
+  no_info.textContent = "该分类现在没有文章呢";
+  content_page.appendChild(no_info);
+}
