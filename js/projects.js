@@ -11,10 +11,10 @@ project_name_arr.sort(function (val1, val2) {
   if (result != 0) return result;
   return val2.date.split("/")[3].split(":")[2] - val1.date.split("/")[3].split(":")[2];
 });
-
 var content_page = document.querySelector("#content-page-id");
 
 for (var i = 0; i < project_name_arr.length; i++) {
+  num_item++;
   var now_element = document.createElement("div");
   now_element.className = "content-page-item-class";
   content_page.appendChild(now_element);

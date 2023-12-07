@@ -7,7 +7,7 @@ body {
 }
 
 pre {
-  font-family: "LXGW WenKai Mono";
+  font-family: "LXGW WenKai Mono Lite";
   width: 40px;
   margin-top: 0;
   margin-bottom: 0;
@@ -40,7 +40,7 @@ pre code.hljs[class~="content-code-number"] {
 }
 
 code {
-  font-family: "LXGW WenKai Mono";
+  font-family: "LXGW WenKai Mono Lite";
   font-weight: bold;
   font-size: 16px;
   padding-left: 0em;
@@ -379,7 +379,7 @@ blockquote {
 
 .content-inline-code-class {
   font-size: 18px;
-  font-family: "LXGW WenKai Mono";
+  font-family: "LXGW WenKai Mono Lite";
   padding-left: 3px;
   padding-right: 3px;
   background-color: #f3f4f4;
@@ -600,7 +600,7 @@ blockquote {
   }
 
   code {
-    font-family: "LXGW WenKai Mono";
+    font-family: "LXGW WenKai Mono Lite";
     font-weight: bold;
     font-size: 14px;
     padding-left: 0em;

@@ -4,16 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-lite-webfont@1.1.0/style.css" />
     <link href="css/general.css" rel="stylesheet" type="text/css" />
     <link href="css/index.css" rel="stylesheet" type="text/css" />
     <link href="css/page.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark-reasonable.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
   </head>
   <body onload="body_init();">
     <!--Top bar-->
     <div id="topbar-id">
       <!--topbar blogger-->
       <div id="topbar-div-blogger-id" class="topbar-div-content-class">
-        <a id="topbar-div-a-blogger-id" href="index.html">Acc的博客</a>
+        <a id="topbar-div-a-blogger-id" href="index.html"></a>
       </div>
       <!--topbar content-->
       <div id="topbar-div-id">
@@ -111,5 +114,19 @@
     <script src="js/info.js"></script>
     <script src="js/general.js"></script>
     <script src="js/index.js"></script>
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [["$", "$"]],
+        },
+        svg: {
+          fontCache: "global",
+        },
+      };
+    </script>
+    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
   </body>
 </html>
