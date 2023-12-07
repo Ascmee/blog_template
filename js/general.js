@@ -188,14 +188,20 @@ window.addEventListener("mousedown", function (e) {
       topbar_div.style.visibility = "hidden";
       topbar_div.style.right = "40%";
       topbar_div.style.top = "0px";
+      document.querySelector("#topbar-id").style.boxShadow = "0px 0px 0px #888888";
       topbar_div_outer_show.style.visibility = "hidden";
+    } else if (topbar_div_outer_show.style.visibility == "hidden") {
+      document.querySelector("#topbar-id").style.boxShadow = "0px 0px 5px #888888";
     }
   } else {
     if (topbar_div_outer_show.style.visibility == "visible" && e.clientY > 70) {
       topbar_div.style.visibility = "hidden";
       topbar_div.style.right = "40%";
       topbar_div.style.top = "0px";
+      document.querySelector("#topbar-id").style.boxShadow = "0px 0px 0px #888888";
       topbar_div_outer_show.style.visibility = "hidden";
+    } else if (topbar_div_outer_show.style.visibility == "hidden") {
+      document.querySelector("#topbar-id").style.boxShadow = "0px 0px 5px #888888";
     }
   }
 });
